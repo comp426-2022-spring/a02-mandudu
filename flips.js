@@ -1,7 +1,8 @@
-import minimist from 'minimist';
-import {coinFlips, countFlips} from "./modules/coin.mjs";
+import { coinFlips, countFlips } from "./modules/coin.mjs";
+import minimist from "minimist";
 
-const argv = (minimist)(process.argv.slice(2));
+
+const argv = minimist(process.argv.slice(2));
 
 argv["number"];
 const tmp = argv.number || 1;
