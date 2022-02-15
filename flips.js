@@ -1,4 +1,4 @@
-import {coinFlip, coinFlips} from "./modules/coin.mjs";
+import {coinFlips, coinFlips} from "./modules/coin.mjs";
 
 var argv = require('minimist')(process.argv.slice(2));
 

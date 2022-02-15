@@ -1,6 +1,7 @@
-import {coinFlips, countFlips, flipACoin} from './modules/coin.mjs';
+import minimist from 'minimist'
+import {flipACoin} from './modules/coin.mjs';
 
-const argv = require('minimist')(process.argv.slice(2));
+const argv = (minimist)(process.argv.slice(2));
 
 argv["call"];
 
